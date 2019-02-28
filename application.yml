@@ -1,16 +1,16 @@
-﻿spring: 
-    profiles: 
-        active: 
-        - dev
----
-spring: 
+﻿spring:
+  profiles:
+    active:
+    - dev
+  ---
+  spring:
     profiles: dev   #开发环境
-    application: 
-        name: microservicecloud-config-bill-dev
----
-spring: 
+    application:
+      name: microservicecloud-config-bill-dev
+  ---
+  spring:
     profiles: test  #测试环境
-    application: 
-        name: microservicecloud-config-bill-test
-        
-#   请一定要用UTF-8来保存该文档
+    application:
+      name: microservicecloud-config-bill-test
+
+  #   请一定要用UTF-8来保存该文档
